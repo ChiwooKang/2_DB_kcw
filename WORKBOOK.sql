@@ -1,0 +1,11 @@
+
+--1.번 문제
+
+SELECT DEPARTMENT_NAME 학과명, CATEGORY 계열
+FROM TB_DEPARTMENT;
+
+--2 학과의 학과 정원을 다음과 같은 형태로 화면에 출력한다.
+
+SELECT DEPARTMENT_NAME "학과별 정원", CAPACITY " "
+FROM TB_DEPARTMENT ;
+ORDER
